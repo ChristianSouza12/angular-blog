@@ -1,0 +1,49 @@
+.container__small-card{
+
+  width: 700px;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 15px;
+  margin-left: 150px;
+
+}
+
+
+.container__small-card-content{
+  display: flex;
+  flex-direction: row;
+}
+.small-card__photo > img{
+  width: 200px;
+  min-width: 200px;
+  margin-right: 20px;
+  border-radius: 20px;
+  transition: .5s ease;
+}
+.small-card__photo > img:hover{
+  transform:scale(1.04);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+
+}
+
+
+
+
+.small-card__title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.small-card__title> h1:hover{
+  transform: scale(1.02);
+  transition: 0.4s;
+  color:#b3a125;
+  text-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.container_hr >hr{
+  margin-bottom: 15px;
+  border-color: #07acc3;
+  margin-left: 110px;
+}
+

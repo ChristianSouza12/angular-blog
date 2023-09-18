@@ -1,0 +1,38 @@
+.menu__title__container{
+color: #fca311;
+}
+.menu__title__container>h1{
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 10rem;
+  display: flex;
+  justify-content: center;
+
+}
+
+.menu__title__container>h1>img{
+  width: 700px;
+  transform:translateY(0px);
+  animation: float 5s ease-in-out infinite;
+}
+@keyframes float{
+  0%{
+    transform: translateY(0px);
+  }
+  50%{
+    transform: translateY(-14px);
+  }
+  100%{
+    transform: translateY(0px);
+  }
+}
+
+
+
+
+
+.menu__title__container>hr{
+  margin-top: 20px;
+  margin-bottom: 7px;
+  border-color:#b3a125;
+}

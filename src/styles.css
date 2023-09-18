@@ -1,1 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Oswald', sans-serif;
+  color:#ffde00;
+
+}
+
+a{
+  text-decoration: none;
+}
+body{
+  background-image: url("https://wallpapercave.com/wp/wp2711150.jpg");
+  background-repeat: no-repeat;
+  background-position:  center;
+background-size: 100%;
+
+}
