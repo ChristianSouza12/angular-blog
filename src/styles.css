@@ -16,6 +16,10 @@ body{
   background-image: url("https://wallpapercave.com/wp/wp2711150.jpg");
   background-repeat: no-repeat;
   background-position:  center;
-background-size: 100%;
+  background-size: 100%;
 
+}
+html{
+  height: 100%;
+  width: 100%;
 }
